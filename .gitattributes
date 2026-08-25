@@ -1,0 +1,12 @@
+# Default behavior
+# Exclude build artifacts
+*.jpg binary
+
+dist/* linguist-vendored
+package-lock.json linguist-generated
+
+public/*.html linguist-vendored
+* text=auto eol=lf
+*.tsx linguist-detectable
+
+src/**/*.ts linguist-detectable
